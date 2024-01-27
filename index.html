@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Flex Box</title>
+    <style>
+        .container {
+            border: 10px solid #472d30;
+            border-radius: 20px;
+            height: 400px;
+            justify-content: space-between;
+            display: flex;
+           
+        }
+
+        .card {
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .sqe1 {
+            background-color: #e26d5c;
+            flex-grow: 3;
+        }
+
+        .sqe2 {
+            flex-grow: 2;
+            background-color: #723d46;
+        }
+
+        .sqe3 {
+            flex-grow: 3;
+            background-color: #c9cba3;
+
+        }
+        #heading{
+            background-color: #472d30;
+           border-radius: 10px;
+        }
+        h1{
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="heading">
+        <h1>My FlexBox</h1>
+    </div>
+    <div class="container">
+        <div class="sqe1 card"></div>
+        <div class="sqe2 card"></div>
+        <div class="sqe3 card"></div>
+
+
+    </div>
+
+</body>
+
+</html>
